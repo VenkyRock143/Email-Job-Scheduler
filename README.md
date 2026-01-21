@@ -222,8 +222,8 @@ npm run dev
 
 🔑 Environment Variables
 
-Backend (.env)
-
+##Backend (.env)
+```bash
 DATABASE_URL=postgresql://...
 REDIS_HOST=localhost
 REDIS_PORT=6379
@@ -242,29 +242,23 @@ NEXTAUTH_SECRET=your_secret
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 
+```
+
 ✅ Features Checklist
-Backend
+##Backend
 
-Email scheduling API
+###Email scheduling API
+###Persistent delayed jobs using BullMQ
+###Restart-safe execution
+###Idempotent email sending
+###Per-sender rate limiting
+###Configurable concurrency and delay
 
-Persistent delayed jobs using BullMQ
+##Frontend
 
-Restart-safe execution
+###Google OAuth authentication
+###Protected dashboard
+###Compose email flow
+###Scheduled and sent email views
+###Loading and empty states
 
-Idempotent email sending
-
-Per-sender rate limiting
-
-Configurable concurrency and delay
-
-Frontend
-
-Google OAuth authentication
-
-Protected dashboard
-
-Compose email flow
-
-Scheduled and sent email views
-
-Loading and empty states
